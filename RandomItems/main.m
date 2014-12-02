@@ -28,13 +28,21 @@ int main(int argc, const char * argv[]) {
             NSLog(@"%@",item);
         }
         
-        BNRItem *item = [[BNRItem alloc] init];
+        //BNRItem *item = [[BNRItem alloc] init];
         
-        [item setItemName:@"Red Sofa"];
-        [item setSerialNumber:@"A1B2C"];
-        [item setValueInDollars:100];
+        //[item setItemName:@"Red Sofa"];
+        //[item setSerialNumber:@"A1B2C"];
+        //[item setValueInDollars:100];
         
-        NSLog(@"%@ %@ %@ %d",[item itemName],[item dateCreated],[item serialNumber],[item valueInDollars]);
+        BNRItem *item = [[BNRItem alloc] initWithItemName:@"Red Sofa" valueInDollars:100 serialNumber:@"A1B2C"];
+        BNRItem *itemWithName = [[BNRItem alloc] initWithItemName:@"Blue Sofa"];
+        BNRItem *itemWithNoName = [[BNRItem alloc] init];
+        NSLog(@"item:%@",item);
+        NSLog(@"item:%@",itemWithName);
+        NSLog(@"item:%@",itemWithNoName);
+        
+        
+        //NSLog(@"%@ %@ %@ %d",[item itemName],[item dateCreated],[item serialNumber],[item valueInDollars]);
         
         // Destroy the mutable array object
         items = nil;

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2D3721361A279C6000260AD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3721351A279C6000260AD8 /* main.m */; };
 		2D37213E1A27A1F800260AD8 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D37213D1A27A1F800260AD8 /* BNRItem.m */; };
+		2DE24D5E1A3321FC00F551E0 /* BNRContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE24D5D1A3321FC00F551E0 /* BNRContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		2D3721351A279C6000260AD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D37213C1A27A1F800260AD8 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
 		2D37213D1A27A1F800260AD8 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		2DE24D5C1A3321FC00F551E0 /* BNRContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRContainer.h; sourceTree = "<group>"; };
+		2DE24D5D1A3321FC00F551E0 /* BNRContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				2D3721351A279C6000260AD8 /* main.m */,
 				2D37213C1A27A1F800260AD8 /* BNRItem.h */,
 				2D37213D1A27A1F800260AD8 /* BNRItem.m */,
+				2DE24D5C1A3321FC00F551E0 /* BNRContainer.h */,
+				2DE24D5D1A3321FC00F551E0 /* BNRContainer.m */,
 			);
 			path = RandomItems;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			files = (
 				2D3721361A279C6000260AD8 /* main.m in Sources */,
 				2D37213E1A27A1F800260AD8 /* BNRItem.m in Sources */,
+				2DE24D5E1A3321FC00F551E0 /* BNRContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +244,7 @@
 				2D37213B1A279C6000260AD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

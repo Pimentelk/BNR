@@ -33,7 +33,7 @@
                         <!--2015-01-15 10:20:30 +0000-->
                     </date>
                     <variation key="widthClass=compact" fixedFrame="YES">
-                        <rect key="frame" x="0.0" y="115" width="400" height="162"/>
+                        <rect key="frame" x="8" y="74" width="269" height="162"/>
                     </variation>
                 </datePicker>
             </subviews>
@@ -50,7 +50,7 @@
                     <include reference="PGE-9k-rEC"/>
                 </mask>
             </variation>
-            <point key="canvasLocation" x="637" y="583"/>
+            <point key="canvasLocation" x="637" y="651"/>
         </view>
     </objects>
 </document>
